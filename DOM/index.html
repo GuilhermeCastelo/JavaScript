@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando estudos sobre o DOM</title>
+    <style>
+        body {
+            background-color: #d1e9ff;
+            font: normal 12pt arial;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Iniciando o DOM</h1>
+    <p class="p">Aqui vai o resultado</p>
+    <p class="p">Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+    <div id="msg">Clique em mim</div>
+
+    <script>
+        //window.document.write(window.document.URL);
+        //window.document.write("Olá jovem");
+
+        /*
+         var corpo = window.document.body;
+         var d = window.document.getElementById("msg");
+         var p1 = window.document.getElementsByTagName('p')[1];
+         document.write("Está escrito: " + p1.innerHTML); //innerText: Pega o texto sem as tags filhas. innerHTML: Pega o HTML inteiro (com as tags filhas)
+         //corpo.style.background = 'white';
+         d.style.background = 'green';
+         window.document.getElementById('msg').innerText = 'Estou aguardando...';
+         var d = window.document.getElementsByName("msg")[0]
+         d.innerText = 'Olá';
+         var d = document.getElementsByClassName("msg")[0];
+         d.style.color = 'red';
+        */
+
+        //var d = document.querySelector("div#msg");
+        //d.style.color = 'blue';
+
+        var par = window.document.querySelector("p.p");
+        par.style.color = 'blue';
+        
+    </script>
+</body>
+
+</html>
