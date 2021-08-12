@@ -1,0 +1,24 @@
+body{
+    background-color: #b5ccff;
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+    color: #fff;
+}
+
+section{
+    width: 70%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px #0000003d;
+}   
+
+footer{
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+}
