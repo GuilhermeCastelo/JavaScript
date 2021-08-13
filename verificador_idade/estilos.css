@@ -1,0 +1,35 @@
+body{
+    background-color: #b5ccff;
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+    color: #fff;
+}
+
+section{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px #0000003d;
+}   
+
+section div{
+    text-align: center;
+}
+
+section img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+}
