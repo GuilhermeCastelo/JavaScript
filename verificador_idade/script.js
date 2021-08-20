@@ -6,7 +6,7 @@ function verificar() {
     var result = document.querySelector('div#result');
 
     if (txtAno.value.length == 0 || txtAno.value < 1900 || txtAno.value > ano) {
-        alert('O ano informado não é válido');
+        alert('O ano informado não é válido.');
     } else {
         var rdoSexo = document.getElementsByName('rdoSexo');
         var idade = (ano - txtAno.value);
