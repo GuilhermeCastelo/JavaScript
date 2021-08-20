@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Calculadora de IMC</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Calculadora de IMC</h1>
+            <h2>Insira as informações solicitadas</h2>
+
+            <form>
+                <label for="txtPeso">Peso (em KG)</label>
+                <input type="number" id="txtPeso" placeholder="65,2" autocomplete="off" onkeyup="formatar(this)">
+
+                <label for="txtAltura">Altura (em M)</label>
+                <input type="number" id="txtAltura" placeholder="1,55" autocomplete="off" onkeyup="formatar(this)">
+
+                <button type="button" onclick="calcular()">Calcular IMC</button>
+
+                <span id="spnResultado"></span>
+                <span id="spnCategoria"></span>
+            </form>
+
+            <!-- <h3>O resultado final do IMC pode não ser preciso para crianças e idosos.</h3> -->
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
