@@ -1,0 +1,42 @@
+body{
+    background-color: #b5ccff;
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+    color: #fff;
+}
+
+section{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px #0000003d;
+}   
+
+section label{
+    display: block;
+    margin: 10px 0;
+}
+
+input{
+    width: 170px;
+    display: block;
+    font-size: 20px;
+}
+
+textarea{
+    width: 170px;
+    height: 270px;
+    display: block;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+}
