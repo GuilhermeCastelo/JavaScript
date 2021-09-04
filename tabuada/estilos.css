@@ -17,20 +17,22 @@ section{
     box-shadow: 5px 5px 10px #0000003d;
 }   
 
-section label{
-    display: block;
-    margin: 10px 0;
+section div:nth-child(1){
+    margin-bottom: 30px;
 }
 
 input{
     width: 170px;
-    display: block;
-    font-size: 20px;
+    font-size: 18px;
 }
 
-textarea{
+button{
+    height: 26px;
+}
+
+select{
     width: 170px;
-    height: 270px;
+    height: 280px;
     display: block;
     font-size: 20px;
 }

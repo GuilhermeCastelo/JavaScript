@@ -18,6 +18,8 @@ function contar() {
             passo = 1;
         }
 
+        result.innerHTML = "Contando...<br><br>";
+
         if (inicio < fim) {
             //Contagem crescente
             for (let cont = inicio; cont <= fim; cont += passo) {
